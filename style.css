@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(./images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#kick , #punch,#forward,#backward,#block{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 0.3rem;
+}
+
+#kick:hover,
+#punch:hover,
+#forward:hover,
+#backward:hover,
+#block:hover{
+    background-color: white;
+    color: black;
+}
